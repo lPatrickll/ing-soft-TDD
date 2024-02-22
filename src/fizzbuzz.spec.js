@@ -20,4 +20,8 @@ describe("FizzBuzz", () => {
   it("deberia generar buzz para un nro. que tiene la reglas como el 5", () => {
     expect(generarFizzBuzz(5)).toEqual("buzz");
   });
+
+  it("deberia generar buzz para un nro. que tiene la reglas como el 10", () => {
+    expect(generarFizzBuzz(10)).toEqual("buzz");
+  });
 });
